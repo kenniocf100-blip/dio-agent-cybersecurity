@@ -92,6 +92,19 @@ O resultado esperado são quatro testes aprovados. O laboratório deve permanece
 | Recomendação | Usar consultas parametrizadas |
 | Reteste | Reexecutar os testes positivo e negativo na versão corrigida |
 
+## Evidências para o portfólio
+
+As capturas devem ser feitas durante a execução real no seu ambiente, sem simular resultados. Salve-as em `evidencias/` e atualize esta seção com os arquivos adicionados.
+
+Sugestões de capturas:
+1. Revisão do `app_vulnerable.py`, mostrando a concatenação insegura da consulta SQL.
+2. Análise do agente identificando a falha, evidências, impacto, probabilidade e severidade.
+3. Revisão do `app_fixed.py`, mostrando a consulta parametrizada.
+4. Reteste confirmando que a entrada manipulada é rejeitada pela versão corrigida.
+5. Cenário de servidor Ubuntu: o agente deve perguntar sobre autorização, escopo, janela e plano de reversão antes de sugerir testes ativos.
+
+Não publique tokens, senhas, dados pessoais ou endereços/IPs sensíveis nas imagens.
+
 ## Segurança e limites
 
 - Teste somente ativos próprios ou com autorização explícita.
